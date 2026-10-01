@@ -1,0 +1,86 @@
+.admin-orders-page {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 60px 24px;
+}
+
+.admin-orders-header {
+  margin-bottom: 30px;
+}
+
+.admin-orders-header p {
+  color: #777;
+  margin-top: 8px;
+}
+
+.admin-orders-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.admin-order-card {
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.06);
+}
+
+.admin-order-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.admin-order-id {
+  margin: 0;
+}
+
+.admin-order-date {
+  color: #777;
+  margin-top: 5px;
+}
+
+.admin-customer {
+  background: #f7f7f7;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 18px;
+}
+
+.admin-customer p {
+  margin: 5px 0;
+}
+
+.admin-order-total {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 18px 0;
+}
+
+.admin-status-section {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.admin-status-section label {
+  font-weight: 600;
+}
+
+.admin-status-select {
+  padding: 9px 14px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: white;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.admin-empty {
+  text-align: center;
+  padding: 60px 20px;
+  color: #777;
+}
